@@ -1,4 +1,4 @@
-.appContainer{
+.appContainer {
   width: 100vw;
   height: 100vh;
   position: relative;
@@ -73,7 +73,7 @@
   transform: rotate(180deg);
 }
 
-.powerOff:active{
+.powerOff:active {
   color: grey;
 }
 
