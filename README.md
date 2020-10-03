@@ -12,23 +12,23 @@ Roteiro:
 DESAFIO 1: Jogo da Velha (Tic-Tac-Toe)
 =======================================
 
-[ ] Criar Componente TicTacToe.
+- [ ] Criar Componente TicTacToe.
 
-[ ] Criar Protótipo da Interface com:
-    [ ] Indicação do Jogador Atual;
-    [ ] Indicação do Placar Atual;
-    [ ] Indicação do Vencedor (Quando acabar a partida);
-    [ ] Botão para Reiniciar a partida;
-    [ ] Botão para Resetar o Jogo;
-    [ ] Tabuleiro.
+- [ ] Criar Protótipo da Interface com:
+    - [ ] Indicação do Jogador Atual;
+    - [ ] Indicação do Placar Atual;
+    - [ ] Indicação do Vencedor (Quando acabar a partida);
+    - [ ] Botão para Reiniciar a partida;
+    - [ ] Botão para Resetar o Jogo;
+    - [ ] Tabuleiro.
 
-[ ] Criar Propriedades para armazenar o Estado do Jogo.
+- [ ] Criar Propriedades para armazenar o Estado do Jogo.
 
-[ ] Exibir Estado na Interface usando Data-Binding.
+- [ ] Exibir Estado na Interface usando Data-Binding.
 
-[ ] Tratar Evento Click na Célula:
-    [ ] Adicionar Jogada no Tabuleiro (Se a Célula estiver vazia e o jogo não acabou);
-    [ ] Verificar se o Jogador Atual ganhou;
-    [ ] Trocar o Jogador.
+- [ ] Tratar Evento Click na Célula:
+    - [ ] Adicionar Jogada no Tabuleiro (Se a Célula estiver vazia e o jogo não acabou);
+    - [ ] Verificar se o Jogador Atual ganhou;
+    - [ ] Trocar o Jogador.
 
-[ ] Tratar Click no Botão de Reiniciar e Resetar Partida.
+- [ ] Tratar Click no Botão de Reiniciar e Resetar Partida.
