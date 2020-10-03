@@ -1,27 +1,34 @@
-# TicTacToe
+# TIC-TAC-TOE
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.4.
+#### Exercício do Bootcamp para Desenvolvedor Front-End do Instituto de Gestão e Tecnologia da Informação.    
 
-## Development server
+#### A proposta do exercício era criar um Jogo da Velha (Tic-Tac-Toe) utilizando Angular 10, de modo que o Estado do Jogo fosse armazenado em uma Propriedade, devendo haver a indicação do Jogador da vez, do Vencedor da Rodada e o Placar Atual.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+#### Adicionalmente foram criados dois Botões, sendo um para Resetar a Partida, não alterando o Placar, e outro para Resetar todo o Jogo, inclusive o Placar.
 
-## Code scaffolding
+<img src="https://i.ibb.co/tH62WVT/image.png">
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Roteiro:
+DESAFIO 1: Jogo da Velha (Tic-Tac-Toe)
+=======================================
 
-## Build
+- [x] Criar Componente TicTacToe.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+- [x] Criar Protótipo da Interface com:
+    - [x] Indicação do Jogador Atual;
+    - [x] Indicação do Placar Atual;
+    - [x] Indicação do Vencedor (Quando acabar a partida);
+    - [x] Botão para Reiniciar a partida;
+    - [x] Botão para Resetar o Jogo;
+    - [x] Tabuleiro.
 
-## Running unit tests
+- [x] Criar Propriedades para armazenar o Estado do Jogo.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- [x] Exibir Estado na Interface usando Data-Binding.
 
-## Running end-to-end tests
+- [x] Tratar Evento Click na Célula:
+    - [x] Adicionar Jogada no Tabuleiro (Se a Célula estiver vazia e o jogo não acabou);
+    - [x] Verificar se o Jogador Atual ganhou;
+    - [x] Trocar o Jogador.
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+- [x] Tratar Click no Botão de Reiniciar e Resetar Partida.
