@@ -1,0 +1,21 @@
+DESAFIO 1: Jogo da Velha (Tic-Tac-Toe) - ✔
+=======================================
+
+[✔] Criar Componente TicTacToe.
+
+[✔] Criar Protótipo da Interface com:
+    - Indicação do Jogador Atual;
+    - Indicação do Vencedor (Quando acabar a partida);
+    - Botão para Reiniciar a partida;
+    - Tabuleiro.
+
+[✔] Criar Propriedades para .
+
+[✔] Exibir Estado na Interface usando Data-Binding.
+
+[✔] Tratar Evento Click na Célula:
+    - Adicionar Jogada no Tabuleiro (Se a Célula estiver vazia e o jogo não acabou);
+    - Verificar se o Jogador Atual ganhou;
+    - Trocar o Jogador.
+
+[✔] Tratar Click no Botão de Reiniciar Partida.

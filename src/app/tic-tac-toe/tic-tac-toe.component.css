@@ -1,0 +1,87 @@
+.tictactoeContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  max-width: 400px;
+  min-width: 400px;
+
+  border: 1px solid rgb(8, 8, 41);
+  padding: 50px;
+  margin-top: 8%;
+  border-radius: 10px;
+  background-color: #0d0f22;
+}
+
+.gameTitle {
+  color: #fff;
+  font-size: 20pt;
+  margin-bottom: 40px;
+}
+
+.gameData {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.gameData span {
+  font-size: 14pt;
+  font-weight: 600;
+  color: #fff;
+}
+
+.score {
+  color: rgb(235, 231, 17) !important;
+}
+
+.resetGame {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  position: absolute;
+  top: 10px;
+}
+
+.reload,
+.powerOff {
+  background-color: transparent;
+  border: none;
+  transition: all 0.2s;
+  font-size: 14pt;
+  cursor: pointer;
+  color: #fff;
+  margin: 0 10px;
+}
+
+.reload:active {
+  background-color: transparent;
+  border: none;
+  transform: rotate(180deg);
+}
+
+.powerOff:active{
+  color: grey;
+}
+
+.board {
+  border-spacing: 0;
+  border-collapse: collapse;
+  margin-top: 40px;
+}
+
+.board td {
+  border: 2px solid grey;
+  width: 90px;
+  height: 90px;
+  text-align: center;
+  vertical-align: middle;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 20px;
+  background-color: rgb(183, 237, 250);
+}
