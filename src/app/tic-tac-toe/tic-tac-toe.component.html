@@ -1,39 +1,32 @@
-<div class="container tictactoeContainer">
-  <div class="resetGame">
-    <button (click)="powerOff()" class="powerOff">
-      <i class="fas fa-power-off"></i>
-    </button>
-    <button (click)="reset()" class="reload">
-      <i class="fas fa-redo-alt"></i>
-    </button>
+<div class="appContainer">
+  <div class="container tictactoeContainer">
+    <div class="resetGame">
+      <button (click)="powerOff()" class="powerOff">
+        <i class="fas fa-power-off"></i>
+      </button>
+      <button (click)="reset()" class="reload">
+        <i class="fas fa-redo-alt"></i>
+      </button>
+    </div>
+
+    <span class="gameTitle">Tic Tac Toe</span>
+    <div class="gameData">
+      <span class="currentPlayer">Jogador Atual: {{ currentPlayer }}</span>
+      <span
+        >Placar Atual:
+        <span class="score">{{ p1Score }} - {{ p2Score }}</span></span
+      >
+      <span [hidden]="!isEnded"
+        >Vencedor: <span class="winner">{{ winner }}</span></span
+      >
+    </div>
+
+    <table class="board">
+      <tr *ngFor="let row of [0, 1, 2]">
+        <td *ngFor="let col of [0, 1, 2]" (click)="play(row, col)">
+          {{ board[row][col] }}
+        </td>
+      </tr>
+    </table>
   </div>
-  
-  <span class="gameTitle">Tic Tac Toe</span>
-  <div class="gameData">
-    <span class="currentPlayer">Jogador Atual: {{ currentPlayer }}</span>
-    <span>Placar Atual: <span class="score">{{p1Score}} - {{p2Score}}</span></span>
-    <span [hidden]="!isEnded"
-      >Vencedor: <span class="winner">{{ winner }}</span></span
-    >
-  </div>
-
-
-
-  <table class="board">
-    <tr>
-      <td (click)="play(0, 0)">{{ board[0][0] }}</td>
-      <td (click)="play(0, 1)">{{ board[0][1] }}</td>
-      <td (click)="play(0, 2)">{{ board[0][2] }}</td>
-    </tr>
-    <tr>
-      <td (click)="play(1, 0)">{{ board[1][0] }}</td>
-      <td (click)="play(1, 1)">{{ board[1][1] }}</td>
-      <td (click)="play(1, 2)">{{ board[1][2] }}</td>
-    </tr>
-    <tr>
-      <td (click)="play(2, 0)">{{ board[2][0] }}</td>
-      <td (click)="play(2, 1)">{{ board[2][1] }}</td>
-      <td (click)="play(2, 2)">{{ board[2][2] }}</td>
-    </tr>
-  </table>
 </div>
