@@ -9,7 +9,7 @@
 <img src="https://i.ibb.co/tH62WVT/image.png">
 
 Roteiro:
-DESAFIO 1: Jogo da Velha (Tic-Tac-Toe)
+Jogo da Velha (Tic-Tac-Toe)
 =======================================
 
 - [x] Criar Componente TicTacToe.
